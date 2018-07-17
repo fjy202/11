@@ -8,7 +8,7 @@ else:
     a=int(a)
 for x in range(1,int(a)):
     if a%x==0:
-        print(a,"=",int(a/x),"*",x,end="\n")
+        print(a,"=",int(a/x),"*",x)
         l.append(x)
         #print(int(a / ax), "*",ax, "=", a)
     #ax=ax+1
