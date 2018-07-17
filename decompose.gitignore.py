@@ -4,8 +4,6 @@ ax=1
 if a.isdigit()==False:
     print("Please try again.")
     exit()
-else:
-    a=int(a)
 for x in range(1,int(a)):
     if a%x==0:
         print(a,"=",int(a/x),"*",x)
