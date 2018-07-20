@@ -4,11 +4,10 @@ from os import path
 import urllib.request
 import time
 def mk_link(url):
-    print("url需带协议。")
     try:
         urllib.request.urlopen (url).read ()
     except:
-        print("错误：无法访问。")
+        print("错误：无法访问。url需带协议。")
         exit()
     f=open(r'C:\Users\Administrator\Desktop\\'+input("名称:")+'.url','w')
     f.write('[{000214A0-0000-0000-C000-000000000046}]')
